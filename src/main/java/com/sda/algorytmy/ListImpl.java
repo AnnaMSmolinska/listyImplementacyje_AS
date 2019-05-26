@@ -41,4 +41,9 @@ public class ListImpl<E> implements MyList<E> {
         elementData[elementData.length-1] = null;
         return true;
     }
+
+    @Override
+    public void printList() {
+
+    }
 }

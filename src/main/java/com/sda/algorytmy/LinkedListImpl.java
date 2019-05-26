@@ -28,6 +28,13 @@ public class LinkedListImpl<E> implements MyList<E>{
 
         return true;
     }
+    public void printList(){
+        Node tmp = head;
+        while(tmp!=null){
+            System.out.println(tmp.data);
+            tmp = tmp.next;
+        }
+    }
 
     @Override
     public boolean remove(int index) {
